@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Cyberverse Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Cyberverse.woff') format('woff');}
+@font-face {
+        font-family: 'Cyberverse Italic';
+        font-style: normal;
+        font-weight: normal;
+        src: url('../fonts/Cyberverse Italic') format('woff');}
+@font-face {
+        font-family: 'Cyberverse Bold';
+        font-style: normal;
+        font-weight: normal;
+        src: url('../fonts/Cyberverse Bold') format('woff');}
+@font-face {
+        font-family: 'Cyberverse Bold Italic';
+        font-style: normal;
+        font-weight: normal;
+        src: url('../fonts/Cyberverse Bold Italic') format('woff');}
+@font-face {
+        font-family: 'Cyberverse Condensed Regular';
+        font-style: normal;
+        font-weight: normal;
+        src: url('../fonts/Cyberverse Condensed Regular') format('woff');}
+@font-face {
+        font-family: 'Cyberverse Condensed Italic';
+        font-style: normal;
+        font-weight: normal;
+        src: url('../fonts/Cyberverse Condensed Italic') format('woff');}
+@font-face {
+        font-family: 'Cyberverse Condensed Bold';
+        font-style: normal;
+        font-weight: normal;
+        src: url('../fonts/Cyberverse Condensed Bold') format('woff');}
+@font-face {
+        font-family: 'Cyberverse Condensed Bold Italic';
+        font-style: normal;
+        font-weight: normal;
+        src: url('../fonts/Cyberverse Condensed Bold Italic') format('woff');}
+@font-face {
+    font-family: 'DhfDipanegara';
+    src: url('../fonts/DhfDipanegara-7pDP') format('truetype');}

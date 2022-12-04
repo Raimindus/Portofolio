@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Cyberverse Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Cyberverse.woff') format('woff');}
+
+.container {
+    width: 100%;
+    font-family: 'Cyberverse Regular';
+    display: flex
+}
+.divContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    flex-flow: column;
+}
+.font1{
+    color: rgb(61, 232, 255);
+    text-shadow: -10px 25px 9px rgb(28, 118, 136);
+    font-size: 50px;
+}
+.font2{
+    color: rgb(61, 232, 255);
+    text-shadow: -10px 25px 9px rgb(28, 118, 136);
+    font-size: 40px;
+}
+.font3{
+    color: rgb(61, 232, 255);
+    text-shadow: -10px 25px 9px rgb(28, 118, 136);
+    font-size: 25px;
+}

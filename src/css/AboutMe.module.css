@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Cyberverse Condensed Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Cyberverse\ Condensed.woff') format('woff');}
+
+.container {
+    width: 100%;
+    padding: 65px 190px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cyberverse Condensed Regular';
+}
+
+.font{
+    color: rgb(61, 232, 255);
+    text-shadow: 5px 5px 10px currentColor;
+}

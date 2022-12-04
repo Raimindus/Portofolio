@@ -1,0 +1,19 @@
+.background{
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+.nav{
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px currentColor;
+    transition:     .35s ease-in-out;
+    color: rgb(61, 232, 255);
+    
+}
+.nav:hover{
+    color: rgb(61, 232, 255);
+    text-shadow: 15px 15px 2px currentColor;
+}
