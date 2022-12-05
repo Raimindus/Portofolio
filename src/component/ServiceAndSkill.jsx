@@ -1,12 +1,13 @@
 import { CardImg } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
+import style from "../css/ServiceAndSkill.module.css";
 
 // import style from "../css/ServiceAndSkill.module.css";
 
 function skill({ image, title }) {
   return (
-    <div>
-      <Card style={{ width: "10rem" }}>
+    <div className={style.container}>
+      <Card className={style.card}>
         <CardImg src={image} />
         <Card.Body>
           <Card.Title>

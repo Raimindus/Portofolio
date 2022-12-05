@@ -1,0 +1,10 @@
+.container{
+    width: 50rem;
+    display: grid;
+    
+}
+.card{
+    background: transparent;
+    background-size: cover;
+    width: 10rem;
+}

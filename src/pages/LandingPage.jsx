@@ -11,10 +11,10 @@ import react from "../assets/skill/react.png";
 
 function LandingPage() {
   const imgGallery = [
-    { id: "0", src: css, title: "css" },
-    { id: "1", src: html, title: "html" },
-    { id: "2", src: js, title: "js" },
-    { id: "3", src: react, title: "react" },
+    { id: "0", src: css, title: "CSS" },
+    { id: "1", src: html, title: "HTML" },
+    { id: "2", src: js, title: "Javascript" },
+    { id: "3", src: react, title: "ReactJS" },
   ];
   return (
     <>
@@ -25,7 +25,7 @@ function LandingPage() {
           <div className={style.backgroundContainer}>
             <AboutMe />
           </div>
-          <div>
+          <div className={style.container}>
             {imgGallery.map((index) => (
               <div key={index.id}>
                 <Card image={index.src} title={index.title}></Card>
