@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Cyberverse Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Cyberverse.woff') format('woff');}
 .home{
     background: url(../assets/pic2.jpg) 0 0 repeat-y;
     width: 100%;
@@ -10,4 +15,28 @@
     background-size: 100% 100%;
     margin: auto;
     -webkit-box-reflect: below -66px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 80px;
+    padding: 0px 160px 0px 70px;
+
+}
+.container2 {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    font-family: 'Cyberverse Regular';
+    color: rgb(61, 232, 255);
+    text-shadow: -10px 25px 9px rgb(28, 118, 136);
+    font-size: 50px; 
 }

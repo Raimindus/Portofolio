@@ -1,6 +1,6 @@
 import Navbar from "../component/Navbar";
 import AboutMe from "../component/AboutMe";
-import Card from "../component/ServiceAndSkill";
+import Card from "../component/Card";
 import Home from "../component/Home";
 import React from "react";
 import style from "../css/LandingPage.module.css";
@@ -26,11 +26,14 @@ function LandingPage() {
             <AboutMe />
           </div>
           <div className={style.container}>
-            {imgGallery.map((index) => (
-              <div key={index.id}>
-                <Card image={index.src} title={index.title}></Card>
-              </div>
-            ))}
+            <div className={style.text}>Skill :</div>
+            <div className={style.container2}>
+              {imgGallery.map((index) => (
+                <div key={index.id}>
+                  <Card image={index.src} title={index.title}></Card>
+                </div>
+              ))}
+            </div>
           </div>
         </section>
         <div></div>
