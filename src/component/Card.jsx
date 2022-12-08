@@ -6,7 +6,7 @@ import Tilt from "react-vanilla-tilt";
 function skill({ image, title }) {
   return (
     <div className={style.container}>
-      <Tilt className={style.tilt}>
+      <Tilt className={style.tilt} options={{ glare: true, "max-glare": 1 }}>
         <Card className={style.card}>
           <div className={style.content}>
             <CardImg src={image} />
