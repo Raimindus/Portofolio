@@ -18,8 +18,8 @@ function LandingPage() {
   ];
   return (
     <>
-      <Navbar />
       <div>
+        <Navbar />
         <section className={style.home}>
           <Home />
           <div className={style.backgroundContainer}>
