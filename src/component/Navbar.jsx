@@ -5,8 +5,8 @@ function navbar() {
   return (
     <>
       <Navbar className={gaya.background}>
-        <Container>
-          <Nav className="me-auto">
+        <Container className="justify-content-end">
+          <Nav className="mr-auto">
             <Nav.Link href="#home" className={gaya.nav}>
               Home
             </Nav.Link>

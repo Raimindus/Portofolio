@@ -11,6 +11,7 @@
 .backgroundContainer{
     background: url(../assets/pic5.png) 0 0 no-repeat;
     background-size: 100% 100%;
+    transform: skewX(15deg);
     margin: auto;
     -webkit-box-reflect: below -25px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.1));
     backdrop-filter: blur(15px);

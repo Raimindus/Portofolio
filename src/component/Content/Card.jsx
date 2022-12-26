@@ -1,6 +1,6 @@
 import { CardImg } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
-import style from "../css/Card.module.css";
+import style from "../../css/Card.module.css";
 import VanillaTilt from "vanilla-tilt";
 import { useEffect, useRef } from "react";
 

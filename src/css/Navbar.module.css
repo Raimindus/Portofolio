@@ -3,17 +3,24 @@
     position: sticky;
     top: 0;
 }
-.nav{
+.nav {
     text-decoration: none;
     margin-right: 10px;
     font-size: 1rem;
     font-weight: bold;
     text-shadow: 5px 5px 10px currentColor;
-    transition:     .35s ease-in-out;
+    transition:  .35s ease-in-out;
     color: rgb(61, 232, 255);
-    
-}
-.nav:hover{
+  }
+  
+  .nav:hover {
     color: rgb(61, 232, 255);
     text-shadow: 15px 15px 2px currentColor;
-}
+  }
+  
+  .nav:active,
+  .nav:focus {
+    color: white !important;
+    text-shadow: 15px 15px 2px currentColor !important;
+  }
+  
