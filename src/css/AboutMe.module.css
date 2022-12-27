@@ -4,21 +4,32 @@
     font-weight: normal;
     src: url('../fonts/Cyberverse\ Condensed.woff') format('woff');}
 
-.box {
-    width: 500px;
-    height: 300px;
-    border: 10px solid black;
-    position: relative;
-}
-.overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-.font{
-    color: rgb(61, 232, 255);
-    text-shadow: -10px 25px 9px rgb(28, 118, 136);
-    font-size: 50px;
-}
+    .box {
+        border: 10px solid black;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+      }
+      
+      .overlay {
+        position: absolute;
+        width: 80%;
+        height: 55vh;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 97px;
+        padding: 1px 61px;
+        border: 16px solid black;
+        background-color: rgba(0, 0, 0, 0.5); /* add this line */
+      }
+      
+      
+      
+      .font {
+        color: rgb(61, 232, 255);
+        text-shadow: -10px 25px 9px rgb(28, 118, 136);
+        font-size: 50px;
+        font-family: "Cyberverse Condensed Regular";
+      }
+      
