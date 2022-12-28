@@ -5,8 +5,12 @@ import style from "../css/Content.module.css";
 function Content() {
   return (
     <div className={style.content}>
-      <Home />
-      <AboutMe />
+      <div className={style.component}>
+        <Home />
+      </div>
+      <div className={style.component}>
+        <AboutMe />
+      </div>
     </div>
   );
 }

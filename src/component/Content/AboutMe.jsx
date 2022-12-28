@@ -38,7 +38,7 @@ function AboutMe() {
     <div className={style.box}>
       <h1 className={style.font}>About Me</h1>
       <div className={style.overlay}>
-        <p ref={textElement} className={style.font}></p>
+        <p ref={textElement} className={style.font1}></p>
       </div>
     </div>
   );
